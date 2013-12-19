@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'vagrant/configspec/version'
+require 'vagrant-configspec/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "vagrant-configspec"
-  spec.version       = Vagrant::Configspec::VERSION
+  spec.version       = VagrantPlugins::ConfigSpec::VERSION
   spec.authors       = ["ohta-nobuyuki"]
   spec.email         = ["ohta-nobuyuki@kayac.com"]
   spec.description   = %q{Vagrant configspec provisioner}
