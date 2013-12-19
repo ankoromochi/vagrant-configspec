@@ -1,0 +1,9 @@
+---
+en:
+  vagrant:
+    config:
+      configspec:
+        no_spec_files: |-
+          You must list at least one spec file
+        missing_spec_files: |-
+          Theses files were specified, but could not be found: %{files}
