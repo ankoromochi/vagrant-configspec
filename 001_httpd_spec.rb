@@ -1,9 +1,4 @@
-require 'configspec'
-require 'pathname'
-require 'net/ssh'
-
-include SpecInfra::Helper::Exec
-include SpecInfra::Helper::DetectOS
+require_relative 'spec_helper'
 
 describe package('httpd') do
   it { should be_installed }

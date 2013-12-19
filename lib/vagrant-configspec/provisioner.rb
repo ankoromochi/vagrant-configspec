@@ -16,6 +16,7 @@ module VagrantPlugins
             ssh_opts[:port]          = machine.ssh_info[:port]
             ssh_opts[:forward_agent] = machine.ssh_info[:forward_agent]
             ssh_opts[:keys]          = machine.ssh_info[:private_key_path]
+
             spec.ssh = Net::SSH.start(ssh_host, ssh_username, ssh_opts)
           end
 
