@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Vagrant::Configspec::VERSION
   spec.authors       = ["ohta-nobuyuki"]
   spec.email         = ["ohta-nobuyuki@kayac.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Vagrant configspec provisioner}
+  spec.summary       = %q{Vagrant configspec provisioner}
   spec.homepage      = ""
   spec.license       = "MIT"
 

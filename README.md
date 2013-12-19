@@ -1,29 +1,8 @@
-# Vagrant::Configspec
+# vagrant-configspec
 
-TODO: Write a gem description
+vagrant-configspec is a vagrant plugin that implements configspec as a provisioner.
+Issues and pull requests are welcome.
 
-## Installation
+## Example Usage
 
-Add this line to your application's Gemfile:
-
-    gem 'vagrant-configspec'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install vagrant-configspec
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+to be documented...
